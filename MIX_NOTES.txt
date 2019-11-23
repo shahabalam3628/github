@@ -1,0 +1,50 @@
+UNTRACK FILES :  Means Added ModifiedFiles/NewFiles    (Notes : display in red color)
+
+TRACKED FILES : Means Github software OR index file have snap short. (Notes : display in green color)   
+
+STAGING       : Means ready for commit.  
+Command for   : git add FileName.ext (COMMIT ONLY ONE FILE) OR
+              : git add .  (COMMIT ALL UNTRACKED FILE IN ONE TIME)
+              : git add --all
+
+
+UNSTAGE FILES : Means Not Commited Files.
+
+STAGED FILE   : Means Allready Commited files (Notes : display in green color)
+
+
+
+
+-----------------------------------------------------Commands------------
+git log : Display List of commits with AutherName,Commiited logs and Description of commit .
+
+
+
+
+CHECK COMMITED
+git log -1
+
+REMOVE COMMITED
+git commit -am "commited description name"
+
+
+
+=====================================================Branches====================================================
+create new branch.
+git branch BranchName
+
+
+Move one branch into another.
+git checkout branchName
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+
+---------------------------------------CREATE LOCAL REPOSITORY--------------------------------------------------------------------------------------------------------
+
+STEP : GOTO ANY FOLDER THAT YOU WANT TO CREATE LOCAL REPOSITORY
+EXAM : 	E:\localrepository>
+
+CMD  :  E:\xampp\htdocs\localrepository>git init
+      
+--------------------------------------CREATE REMOTE REPOSITORY---------------------------------------------------------------------------------------------------------
+Means : Connect/Configure Remote repository to local repository OR Add Remote Repository to a local Repository.
+
+CMD   : E:\xampp\htdocs\localrepository>git remote add origin https://github.com/shahabalam3628/Shahab-Learning.git
+Note  : "origin" Name Must be Noted.
+
+Check Remote Repository is added or not from local repository.
+CMD   : E:\xampp\htdocs\localrepository>git remote -v 
+
+Remove Remote Repository from local repository.
+CMD   : E:\xampp\htdocs\localrepository>git remote remove "OriginName"
+
+----------------------------------CONFIGURE THE GLOBAL COMMIT AUTHER(Set Permission to Commits)--------------------------------------------------------------------------------------------------
+Email Configurations    :
+E:\xampp\htdocs\localrepository>git config --global user.email "shahabalam78@gmail.com"
+User Name Configuration : 
+E:\xampp\htdocs\localrepository>git config --global user.name "shahabalam3628"
+
+----------------------------------Commits--------------------------------------------------------------------------------------------------------------------------------
+Add commits
+E:\xampp\htdocs\localrepository>git commit -m "Commit Short Description"
+
+Display List of commits with AutherName,Commiited logs and Description of commit 
+E:\xampp\htdocs\localrepository>git log 
+---------------------------------------Send Files from Local to Remote Repository---------------------------------------------------------------------------------------
+Note : Our OriginName is "origin" with master 
+
+CMD  :
+E:\xampp\htdocs\localrepository>git push origin master 
+
+
+
+
+-------------------------------------REMOVE FILE FROM INDEX (COMMITED TO UNCOMMITED)----------------------------------------------------------------------------------
+STESPS:
+E:\xampp\htdocs\localrepository>git status
+List untrack and track files
+
+E:\xampp\htdocs\localrepository>git add FileName.ext
+
+E:\xampp\htdocs\localrepository>git status
+FileName.ext is a track file (display in green color).
+
+Now: Stage File into Unstage. or Track File into Untrack.
+E:\xampp\htdocs\localrepository>git rm --cached Filename.ext
+
+E:\xampp\htdocs\localrepository>git status
+FileName.ext is a untrack file (display in red color)
+
+
+
+
+
+
+
+
+
+
+

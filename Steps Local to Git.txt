@@ -1,0 +1,26 @@
+1 : Create a new Repository on git.
+
+2 : Create a local Repository in local system  OR  Existing folder then initiate them usin "init command"
+    goto your folders like  "D:\xampp\htdocs\CodeIgniter" and Run init command.   
+    Cmd : D:\xampp\htdocs\CodeIgniter>git init
+
+3 : configure a remote repository orignin name, where origin_name is anything. like abc,xyz;
+    cmd : D:\xampp\htdocs\CodeIgniter>git remote add origin https://github.com/shahabalam3628/corephp.git
+    Note : codeigniter is a remote repository name.
+
+
+4 : now check your status
+    cmd : D:\xampp\htdocs\CodeIgniter>git status
+
+5 : now add 
+    cmd : D:\xampp\htdocs\CodeIgniter>git add *
+
+6 : now commit 
+    cmd : D:\xampp\htdocs\CodeIgniter>commit -m "shortdescription"
+
+7 : finally run push command with origin name
+    cmd : D:\xampp\htdocs\CodeIgniter>git push orignin master
+    
+
+	
+	https://github.com/shahabalam3628/shahab.git

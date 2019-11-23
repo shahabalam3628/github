@@ -1,0 +1,55 @@
+1: E:\xampp\htdocs>git --version: 
+check github successfully install or not and display version of github.
+
+2: E:\xampp\htdocs>git status: 
+check status of github.
+
+3: E:\xampp\htdocs>git init:  
+create a local repositry.
+
+4: E:\xampp\htdocs>git remote add origin https://github.com/shahabalam3628/Shahab-Learning.git
+configure a remote repository. where origin_name is anything. like abc,xyz;
+
+5: E:\xampp\htdocs>git remote -v: 
+Getting the name of repository name of local repository.(MEANS IS LOCAL REPO SE KOUN SA REMOTE REPO CONNECTED HAI YE CHEK KARTE HEIN)
+
+
+6: E:\xampp\htdocs>git remote -v:
+check remote repository exist of not.(pahle se koi remote repository add hai ki nhi)
+
+7: E:\xampp\htdocs>git remote log:
+Display List of commiited with Author name.
+
+8:install live to local repository
+E:\xampp\htdocs>git clone -b dev2 https://github.com/mahattagroup/mahattaart.git
+
+Add Multiple modified file to commit
+E:\xampp\htdocs>git add *
+
+
+Commit
+E:\xampp\htdocs>git commit -m "Short Desccription"
+push
+E:\xampp\htdocs>git push
+
+
+---------------------------------Git Fetching------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+?reate Git Branch and Checkout
+Create a new Git branch and checkout:
+
+$ git branch <branch_name>
+$ git checkout <branch_name>
+Create a Git branch and checkout in one command:
+
+$ git checkout -b <branch_name>

@@ -1,0 +1,31 @@
+Suppose you have 3 branches, if you want send files from one branch to another, this is called merging a files.
+i    : master
+ii   : second 
+iii  : third
+
+Now Suppose we need to move all "third" files into "second", then move into "second" then run merge command.
+
+Step 1 : Check your current branch
+cmd    : git branch
+
+step 2 : now move inot "second" branch
+cmd    : git checkout second            (NOW YOU ARE ENTER IN "second")
+
+step 3 : Merge "third" file into "second"
+cmd    : git merge third 
+
+step 4 : Now Move files
+cmd    : git push origin second   (USING THIS COMMAND ALL FILES OF "third" WILL MOVED INTO "second")
+
+=================================END===================================================================================================================================
+
+
+
+
+
+
+
+ 
+
+
+
